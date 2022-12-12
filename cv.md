@@ -1,5 +1,4 @@
-
-First name and last name
+Name
 Mamaev Vadim
 
 Contacts for communication
@@ -16,7 +15,7 @@ I know languages like HTML, CSS, JS. Technology such as Git , Gulp , Webpack
 
 Example code
 
-$(function () {
+(function ()
 
     $('.header__btn').on('click' , function () {
         $('.rightside-menu').removeClass('rightside-menu--close');
@@ -25,6 +24,8 @@ $(function () {
     $('.rightside-menu__close').on('click' , function () {
         $('.rightside-menu').addClass('rightside-menu--close');
     });
+
+}
 
 Work experience.
 
