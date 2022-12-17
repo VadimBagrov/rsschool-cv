@@ -80,6 +80,7 @@ footer {
   letter-spacing: 0.155em;
   color: #6f6f6f;
   margin-right: 50px;
+  padding-left: 36px;
 }
 
 .about__surname {
@@ -96,6 +97,7 @@ footer {
   line-height: 48px;
   color: #6e6e6e;
   margin-bottom: 40px;
+  padding-left: 36px;
 }
 
 .about__info {
@@ -103,6 +105,16 @@ footer {
   font-size: 36px;
   line-height: 43px;
   color: #868686;
+  padding-left: 36px;
+}
+.about::after {
+  content: "";
+  position: absolute;
+  top: 605px;
+  left: 0;
+  height: 2px;
+  background-color: #888888;
+  width: 100%;
 }
 
 /* Right side */
@@ -113,7 +125,20 @@ footer {
   max-width: 978px;
   max-height: 355px;
   margin-bottom: 100px;
+  padding-left: 170px;
 }
+
+.experience::after {
+  content: "";
+  position: absolute;
+  top: 1426px;
+  left: -254px;
+  height: 2px;
+  background-color: #888888;
+  width: 1643px;
+  transform: rotate(-90deg);
+}
+
 .experience__title {
   font-weight: 600;
   font-size: 40px;
@@ -136,6 +161,7 @@ footer {
   max-width: 834px;
   max-height: 294px;
   margin-bottom: 110px;
+  padding-left: 170px;
 }
 
 .skills__title {
@@ -156,6 +182,7 @@ footer {
 .example {
   max-width: 1022px;
   max-height: 586px;
+  padding-left: 170px;
 }
 
 .example__title {
@@ -206,8 +233,18 @@ footer {
 /* Contcact */
 
 .contact {
-  padding-top: 80px;
+  padding-top: 30px;
   margin-bottom: 106px;
+}
+
+.contact::after {
+  content: "";
+  position: absolute;
+  top: 1035px;
+  left: -132px;
+  height: 2px;
+  background-color: #888888;
+  width: 700px;
 }
 
 .contact__title {
@@ -252,8 +289,19 @@ footer {
 /* Education */
 
 .education {
-  margin-bottom: 105px;
+  margin-bottom: 80px;
   padding-left: 50px;
+  padding-top: 13px;
+}
+
+.education::after {
+  content: "";
+  position: absolute;
+  top: 1445px;
+  left: -132px;
+  height: 2px;
+  background-color: #888888;
+  width: 700px;
 }
 
 .education__title {
@@ -270,6 +318,9 @@ footer {
   font-size: 36px;
   line-height: 43px;
   color: #868686;
+}
+.education__text:last-child {
+  margin-bottom: 0;
 }
 
 /* English Level */
@@ -298,6 +349,9 @@ footer {
 
 /* Rs school */
 
+.rs {
+  padding-left: 50px;
+}
 .rs__link {
   display: flex;
   text-decoration: none;
