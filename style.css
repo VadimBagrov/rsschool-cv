@@ -131,11 +131,11 @@ footer {
 .experience::after {
   content: "";
   position: absolute;
-  top: 1426px;
-  left: -254px;
+  top: 1442px;
+  left: -269px;
   height: 2px;
   background-color: #888888;
-  width: 1643px;
+  width: 1675px;
   transform: rotate(-90deg);
 }
 
@@ -366,8 +366,18 @@ footer {
 .rs__age {
   display: inline;
   font-weight: 275;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 38px;
   letter-spacing: 0.07em;
   color: #5b5b5b;
+}
+
+.myGit {
+  display: inline;
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.07em;
+  color: #5b5b5b;
+  text-decoration: none;
 }
