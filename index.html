@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- navigation -->
+        <nav class="navigation">
+            <ul class="links__items">
+                <li class="link__item">
+                    <a class="link" href="#">info</a>
+                </li>
+                <li class="link__item">
+                    <a class="link" href="#">my project</a>
+                </li>
+                <li class="link__item">
+                    <a class="link" href="#">conctact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Info about me -->
+        <!-- <div class="right__container"> -->
+        <div class="about">
+            <img class="about__emodji" src="assets/Emodji.png" alt="Emodji">
+            <div class="about__text">
+                <div class="about__title">
+                    <h1 class="about__name">Vadim</h1>
+                    <h2 class="about__surname">Bagrov</h2>
+                </div>
+                <p class="about__specialization">Web Devoloper&Designer</p>
+                <p class="about__info">
+                    My name is Vadim, I am 20 years old. I want to master the profession of Frontend developer, in
+                    my
+                    spare time to create my own team, develop and promote startups.</p>
+            </div>
+        </div>
+        <!-- </div> -->
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Right -->
+            <div class="right__container">
+                <!-- experience -->
+                <div class="experience">
+                    <h3 class="experience__title">EXPERIENCE</h3>
+                    <p class="experience__text">
+                        Training experience only courses and self-study, pet projects c using<br>
+                        (HTML, CSS, Js and libraries)<br>
+                        -To do list(in JavaScript) ,<br>
+                        -Drag and Drop (Notes,3 columns) ,<br>
+                        -Dynamic color change (JavaScript actions and css animation),<br>
+                        -Mini game (In JavaScript).<br></p>
+                </div>
+
+                <!-- Skills -->
+                <div class="skills">
+                    <h4 class="skills__title">Skills</h4>
+                    <p class="skills__text">I know programming languages such as HTML, CSS, JS.
+                        Technology such as Git, Gulp, Webpack.
+                        I can use to work Vs code, Figma, Adobe Photoshop, Xd,Illustrator .
+                        I am also analytical, problem-solving, hard-working, and I like to work in a team.</p>
+                </div>
+
+                <!-- Example code -->
+                <div class="example">
+                    <h6 class="example__title">Example code</h6>
+                    <div class="example__boxs">
+                        <div class="example__box">
+                            <p><code class="example__code1">function render () {<br>
+                    console.log(todos);<br>
+                    let html ='';<br>
+                    <br>
+                    todos.forEach (todo => {<br>
+                    if(todo.done) {<br>
+                    return;<br>
+                    };<br>
+                    <br>
+                    html += `<br>
+                    div<br>
+                    ${todo.text}<br>
+                    button data-id='${todo.id}'> Сделано<br>
+                    /button<br>
+                    /div<br>
+                    `;<br>
+                    <br>
+                    })<br>
+                    <br>
+                    todosNode.innerHTML = html;<br>
+                    }<br>
+                </code></p>
+                        </div>
+                        <div class="example__box">
+                            <p><code class="example__code2">
+                    todosNode.addEventListener('click',(event) => {<br>
+                    if (event.target.tagName !== 'BUTTON') {<br>
+                    return;<br>
+                    }<br>
+                    <br>
+                    const id = event.target.dataset.id;<br>
+                    <br>
+                    deleteTodo(id);<br>
+                    <br>
+                    render();<br>
+                    })</code></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Left -->
+            <div class="left__container">
+
+                <!-- Contact -->
+                <div class="contact">
+                    <h4 class="contact__title">Contact</h4>
+                    <ul class="contact__items">
+                        <li class="contact__item">
+                            <a class="contact__link" href="#">
+                                <img class="contact__img" src="assets/Github.png" alt="Github">
+                                <p class="contact__text">Github</p>
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <a class="contact__link" href="#">
+                                <img class="contact__img" src="assets/LinkedIn.png" alt="LinkedIn">
+                                <p class="contact__text">LinkedIn</p>
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <a class="contact__link" href="#">
+                                <img class="contact__img-email" src="assets/email.png" alt="email">
+                                <p class="contact__text">Weasfear@mail.ru</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Education -->
+                <div class="education">
+                    <h5 class="education__title">Education</h5>
+                    <p class="education__text">
+                        High school<br>
+                        2009-2018
+                    </p>
+                    <p class="education__text">
+                        College<br>
+                        2018-2022
+                    </p>
+                </div>
+
+                <!-- English Level A1 -->
+                <div class="english">
+                    <h6 class="english__title">
+                        English Level A1
+                    </h6>
+                    <div class="english__text">
+                        Studied English at school and college, as well as self-study
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="rs">
+            <a class="rs__link" href="#">
+                <img class="rs__img" src="assets/rs_school_js.svg" alt="rs school">
+                <a class="myGit" href="https://github.com/VadimBagrov">My Github</a>
+                <p class="rs__age">2022 year</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
