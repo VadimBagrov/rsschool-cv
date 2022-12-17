@@ -4,94 +4,9 @@ body {
   font-family: "Barlow Condensed", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #d7d7d7;
+  background-color: #e3e3e3;
 }
-
-.header {
-  padding-left: 693px;
-}
-.header-title {
-  font-size: 128px;
-  line-height: 154px;
-  font-weight: 400;
-  margin-bottom: 20px;
-  /* padding-top: 60px; */
-  margin-top: 0;
-}
-
-.header-text {
-  font-size: 60px;
-  line-height: 72px;
-  font-weight: 300;
-  margin-bottom: 64px;
-  margin-top: 0;
-}
-.header-info {
-  display: inline-block;
-}
-
-.header-specilization {
-  position: relative;
-  font-size: 48px;
-  line-height: 58px;
-  font-weight: 400;
-  margin-bottom: 170px;
-  margin-right: 228px;
-}
-
-.header-specilization::before {
-  content: "";
-  position: absolute;
-  top: 147px;
-  left: 0;
-  width: 1102px;
-  border: 3px solid #000000;
-  background: #000000;
-}
-.avatar {
-  padding-top: 60px;
-}
-
-.title {
-  font-size: 70px;
-  line-height: 80px;
-  font-weight: 400;
-  margin-bottom: 0;
-}
-
-.text {
-  font-size: 36px;
-  line-height: 43px;
-  font-weight: 400;
-}
-
-.bg {
-  position: absolute;
-  top: 0;
-  height: 2678px;
-}
-.bg-image {
-}
-
-.container {
-  padding-left: 693px;
-}
-.text {
-  padding-top: 34px;
+footer {
   margin: 0;
-}
-
-.block {
-  margin-bottom: 60px;
-}
-
-.example-title {
-  margin-bottom: 34px;
-}
-
-.example-img {
-  display: flex;
-  width: 553px;
-  height: 417px;
-  margin-right: 11px;
+  padding: 0;
 }
