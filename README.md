@@ -1,3 +1,4 @@
-CV#1. Markdown & Git
-My cv
+CV & CV Markdown version
+
+Markdown :
 https://VadimBagrov.github.io/rsschool-cv/cv
